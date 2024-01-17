@@ -6,10 +6,20 @@ pip install Pillow
 pip install opencv-python
 pip install pooch
 pip install jsonschema
-pip install rembg[gpu] onnxruntime-gpu //install rembg with GPU support
 pip install import pytesseract
 pip install streamlit
 pip install flask
+
+
+if gpu available:
+pip install rembg[gpu] onnxruntime-gpu //install rembg with GPU support
+
+
+if gpu not available:
+pip install rembg
+pip install onnxruntime
+
+
 
 
 to run the streamlit app in browser:
