@@ -1,0 +1,16 @@
+pip install transformers
+pip install torch
+pip install tensorrt
+pip install pymatting
+pip install Pillow
+pip install opencv-python
+pip install pooch
+pip install jsonschema
+pip install rembg[gpu] onnxruntime-gpu //install rembg with GPU support
+pip install import pytesseract
+pip install streamlit
+pip install flask
+
+
+to run the streamli app in browser:
+streamlit run 'your path'/modelUI.py
