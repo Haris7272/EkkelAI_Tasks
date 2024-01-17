@@ -12,5 +12,12 @@ pip install streamlit
 pip install flask
 
 
-to run the streamli app in browser:
+to run the streamlit app in browser:
 streamlit run 'your path'/modelUI.py
+
+
+to test the flask API:
+python app.py
+
+then run in a different terminal: (to send data to /api/completion and get the result back)
+python testflaskAPI.py 
